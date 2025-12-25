@@ -127,7 +127,7 @@ public class PlayerController : MonoBehaviour
         GetComponent<Renderer>().enabled = false;
         DeathSound.Play();
         // reload the level in 2 seconds
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(curLevel);
     }
 
@@ -138,7 +138,7 @@ public class PlayerController : MonoBehaviour
             // hide the player
             GetComponent<Renderer>().enabled = false;
             LevelEndSound.Play();
-            yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(1.5f);
             SceneManager.LoadScene(nextLevel);
         }
     }
