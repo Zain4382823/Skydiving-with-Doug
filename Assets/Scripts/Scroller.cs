@@ -28,8 +28,7 @@ public class Scroller : MonoBehaviour
         for (int i = 0; i < numLayers; i++)
         {
             Vector3 scaledDiff = diff * layerFac[i];
-            layers[i].transform.localPosition = new Vector3(scaledDiff.x,
-           scaledDiff.y, 0.0f);
+            layers[i].transform.localPosition = new Vector3(scaledDiff.x, scaledDiff.y, 0.0f);
         }
     }
 }

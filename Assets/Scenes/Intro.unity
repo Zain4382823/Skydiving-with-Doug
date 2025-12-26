@@ -811,7 +811,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1946,6 +1946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3442554148879342898, guid: 0de213c1f30938345ad538c99ce31662, type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5486109092985305656, guid: 0de213c1f30938345ad538c99ce31662, type: 3}
       propertyPath: uiText
       value: 
@@ -1972,7 +1976,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5486109092985305656, guid: 0de213c1f30938345ad538c99ce31662, type: 3}
       propertyPath: airControlForce
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8954137411082460450, guid: 0de213c1f30938345ad538c99ce31662, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1980,7 +1984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8954137411082460450, guid: 0de213c1f30938345ad538c99ce31662, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.22
+      value: 1.141
       objectReference: {fileID: 0}
     - target: {fileID: 8954137411082460450, guid: 0de213c1f30938345ad538c99ce31662, type: 3}
       propertyPath: m_LocalPosition.z
